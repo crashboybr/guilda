@@ -62,22 +62,33 @@ License: You must have a valid license purchased only from themeforest (the abov
   <!-- Theme styles END -->
 </head>
 <!--DOC: menu-always-on-top class to the body element to set menu on top -->
-<body class="menu-always-on-top">
+<body class="">
 
   <!-- Header BEGIN -->
-  <div class="header header-mobi-ext">
+  <div class="" style="top: 0px; background: #fff; bottom: auto; left: auto; right: auto; width: 100%; min-height: 60px; padding: 0; box-shadow: 0 1px 4px rgba(228, 228, 228, 0.95); z-index: 9999;">
     <div class="container">
       <div class="row">
         <!-- Logo BEGIN -->
-        <div class="col-md-2 col-sm-2">
-          <a class="scroll site-logo" href="#promo-block"><img src="assets/guilda/logo.jpg" style="width: 150px;" alt="Guilda"></a>
+        <div class="col-md-12 col-sm-12" id="promo-block">
+          <div class="col-md-4 col-sm-4"></div>
+          <div class="col-md-2 col-sm-2">
+          <a class="scroll site-logo" href="#promo-block"><img src="assets/guilda/logo.jpg" style="width: 350px;" alt="Guilda"></a>
+          </div>
+          <div class="col-md-4 col-sm-4"></div>
+
         </div>
-        <!-- Logo END -->
+      </div>
+    </div>
+  </div>
+  <div class="header header-mobi-ext">
+    <div class="container">
+      <div class="row">
+        
 
         <a href="javascript:void(0);" class="mobi-toggler"><i class="fa fa-bars"></i></a>
 
         <!-- Navigation BEGIN -->
-        <div class="col-md-10 pull-right">
+        <div class="col-md-12 pull-right">
           <ul class="header-navigation">
             <li class="current"><a href="#promo-block">Inicio</a></li>
             <li><a href="#about">Sobre</a></li>
@@ -95,7 +106,7 @@ License: You must have a valid license purchased only from themeforest (the abov
   <!-- Header END -->
 
   <!-- Promo block BEGIN -->
-  <div class="promo-block" id="promo-block">
+  <div class="promo-block">
   	<div class="tp-banner-container">
   		<div class="tp-banner" >
   			<ul>
@@ -255,7 +266,7 @@ text-align:center;text-shadow:#000 0px 5px 10px;border-width:0px;border-color:rg
 
       <div class="row">
         <div class="col-md-4 item">
-          <img src="assets/guilda/bruno.jpg" alt="Bruno Marques" style='max-width: 350px;' class="img-responsive">
+          <img src="assets/guilda/bruno.jpg" alt="Bruno Marques" style='width: 373p; max-width: 373px;' class="img-responsive">
           <h3>Bruno Marques</h3>
           <em>Compositor, Arranjador e Diretor Musical</em>
           <p>Departamento Orquestral, Sinfônico e de Trilha</p>
@@ -264,7 +275,7 @@ text-align:center;text-shadow:#000 0px 5px 10px;border-width:0px;border-color:rg
             <div class="panel panel-default">
               <div class="panel-heading">
                 <h5 class="panel-title">
-                  <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordionbruno" href="#accordionbruno2">Ver Currículo</a>
+                  <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordionbruno" href="#accordionbruno2">Conheça</a>
                 </h5>
               </div>
               <div id="accordionbruno2" class="panel-collapse collapse">
@@ -277,6 +288,52 @@ text-align:center;text-shadow:#000 0px 5px 10px;border-width:0px;border-color:rg
 
         </div>
         <div class="col-md-4 item">
+          <img src="assets/guilda/giovani.jpg" alt="Marcus Doe" style='max-width: 300px;' class="img-responsive">
+          <h3>Giovani Malini</h3>
+          <em>Compositor e Letrista</em>
+          <p>Departamento de Canções e Musica Popular</p>
+          
+          <div class="panel-group" id="accordiongio">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h5 class="panel-title">
+                  <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordiongio" href="#accordiongio2">Conheça</a>
+                </h5>
+              </div>
+              <div id="accordiongio2" class="panel-collapse collapse">
+                <div class="panel-body">
+                  <p>Giovani Malini é Mestre em Performance Musical com especialização em Jazz pela Universidade de Aveiro (Portugal), já tendo lecionado na Universidade Federal do Espírito Santo (UFES), Conservatório de Coimbra (Portugal), Faculdade de Música do Espírito Santo (FAMES), Conservatório de Águeda (Portugal), Conservatório Villa-Lobos (SP), entre outras instituições, bem como tendo por vezes lecionado no prestigioso Festival de Música de Domingo Martins (ES). Também Bacharel em guitarra e Pós-Graduado em Educação Musical, está atualmente em fase de divulgação do seu trabalho próprio de "cantautor" (compositor/letrista), em que direciona sua experiência, conhecimento acadêmico e vivências musicais para a produção de canções (melodia/poesia) singelas e inspiradas, sustentadas por estruturas harmônicas ricas.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-md-4 item">
+          <img src="assets/guilda/maico.png" alt="Marcus Doe" style='width: 205px;' class="img-responsive">
+          <h3>Dr. Maico Lopes</h3>
+          <em>Compositor, Arranjador e Pesquisador</em>
+          <p>Departamento de Música Étnica e Pesquisas Musicais</p>
+          
+          <div class="panel-group" id="accordionmai">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h5 class="panel-title">
+                  <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordionmai" href="#accordionmai2">Conheça</a>
+                </h5>
+              </div>
+              <div id="accordionmai2" class="panel-collapse collapse">
+                <div class="panel-body">
+                  <p>Maico Lopes é Doutor em Música pela Universidade Federal do Estado do Rio de Janeiro (UniRio) e Professor de Estruturação Musical da Universidade de Brasília (UnB). Conduz suas pesquisas na área de música brasileira de câmara para trompete, sendo responsável pela estreia de mais 20 obras nos últimos anos. Também é um ativo arranjador e performer, atuando em gravações e apresentações com artistas renomados da MPB e de produções brasileiras de musicais da Broadway. Acaba de lançar seu primeiro CD, com o repertório catalogado na sua pesquisa de Doutorado em música brasileira do século XXI para trompete solo.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-md-4 item">
           <img src="assets/guilda/henrique.jpg" alt="Henrique Coe" style='max-width: 300px;' class="img-responsive">
           <h3>Henrique Coe</h3>
           <em>Compositor e Regente</em>
@@ -285,7 +342,7 @@ text-align:center;text-shadow:#000 0px 5px 10px;border-width:0px;border-color:rg
             <div class="panel panel-default">
               <div class="panel-heading">
                 <h5 class="panel-title">
-                  <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordionhenrique" href="#accordionhenrique2">Ver Currículo</a>
+                  <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordionhenrique" href="#accordionhenrique2">Conheça</a>
                 </h5>
               </div>
               <div id="accordionhenrique2" class="panel-collapse collapse">
@@ -298,39 +355,18 @@ text-align:center;text-shadow:#000 0px 5px 10px;border-width:0px;border-color:rg
 
 
         </div>
-        <div class="col-md-4 item">
-          <img src="assets/guilda/giovani.jpg" alt="Marcus Doe" style='max-width: 300px;' class="img-responsive">
-          <h3>Giovani Malini</h3>
-          <em>Compositor e Letrista</em>
-          <p>Departamento de Canções e Musica Popular</p>
-          
-          <div class="panel-group" id="accordiongio">
-            <div class="panel panel-default">
-              <div class="panel-heading">
-                <h5 class="panel-title">
-                  <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordiongio" href="#accordiongio2">Ver Currículo</a>
-                </h5>
-              </div>
-              <div id="accordiongio2" class="panel-collapse collapse">
-                <div class="panel-body">
-                  <p>Giovani Malini é Mestre em Performance Musical com especialização em Jazz pela Universidade de Aveiro (Portugal), já tendo lecionado na Universidade Federal do Espírito Santo (UFES), Conservatório de Coimbra (Portugal), Faculdade de Música do Espírito Santo (FAMES), Conservatório de Águeda (Portugal), Conservatório Villa-Lobos (SP), entre outras instituições, bem como tendo por vezes lecionado no prestigioso Festival de Música de Domingo Martins (ES). Também Bacharel em guitarra e Pós-Graduado em Educação Musical, está atualmente em fase de divulgação do seu trabalho próprio de "cantautor" (compositor/letrista), em que direciona sua experiência, conhecimento acadêmico e vivências musicais para a produção de canções (melodia/poesia) singelas e inspiradas, sustentadas por estruturas harmônicas ricas.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
+        
         <div class="col-md-4 item">
           <img src="assets/guilda/lincoln.jpg" alt="Marcus Doe" style='width: 205px;' class="img-responsive">
           <h3>Lincoln Castro</h3>
           <em>Compositor e Regente</em>
-          <p>Departamento de Canto e Coral</p>
+          <p>Departamento de Coral e Canto</p>
 
           <div class="panel-group" id="accordionlin">
             <div class="panel panel-default">
               <div class="panel-heading">
                 <h5 class="panel-title">
-                  <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordionlin" href="#accordionlin2">Ver Currículo</a>
+                  <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordionlin" href="#accordionlin2">Conheça</a>
                 </h5>
               </div>
               <div id="accordionlin2" class="panel-collapse collapse">
@@ -342,28 +378,7 @@ text-align:center;text-shadow:#000 0px 5px 10px;border-width:0px;border-color:rg
           </div>
 
         </div>
-        <div class="col-md-4 item">
-          <img src="assets/guilda/maico.png" alt="Marcus Doe" style='width: 205px;' class="img-responsive">
-          <h3>Dr. Maico Lopes</h3>
-          <em>Compositor e Arranjador</em>
-          <p>Departamento de Música Étnica e Pesquisas Musicais</p>
-          
-          <div class="panel-group" id="accordionmai">
-            <div class="panel panel-default">
-              <div class="panel-heading">
-                <h5 class="panel-title">
-                  <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordionmai" href="#accordionmai2">Ver Currículo</a>
-                </h5>
-              </div>
-              <div id="accordionmai2" class="panel-collapse collapse">
-                <div class="panel-body">
-                  <p>Maico Lopes é Doutor em Música pela Universidade Federal do Estado do Rio de Janeiro (UniRio) e Professor de Estruturação Musical da Universidade de Brasília (UnB). Conduz suas pesquisas na área de música brasileira de câmara para trompete, sendo responsável pela estreia de mais 20 obras nos últimos anos. Também é um ativo arranjador e performer, atuando em gravações e apresentações com artistas renomados da MPB e de produções brasileiras de musicais da Broadway. Acaba de lançar seu primeiro CD, com o repertório catalogado na sua pesquisa de Doutorado em música brasileira do século XXI para trompete solo.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
+        
       </div>
     </div>
   </div>

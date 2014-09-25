@@ -432,7 +432,7 @@ a:hover {
 }
 
 .header-navigation {
-  float: right;
+  
   list-style: none;
   padding: 19px 0 0;
   margin: 0;
@@ -442,7 +442,7 @@ a:hover {
 .header-navigation li {
   float: left;
   padding: 0;
-  margin: 0 0 0 25px;
+  margin: 0 0 0 95px;
 }
 .header-navigation a {
   display: block;
