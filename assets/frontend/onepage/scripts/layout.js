@@ -118,7 +118,7 @@ var Layout = function () {
         });
 
         function SlideUpMenu () {
-            $(".header-navigation a").on("click", function(event) {
+            $(".header-navigation h2 a").on("click", function(event) {
                 if ($(window).width()<1024) {
                     event.preventDefault();//the default action of the event will not be triggered
                     $(".header-navigation").slideUp(100);
