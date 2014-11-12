@@ -205,7 +205,7 @@ text-align:center;text-shadow:#000 0px 5px 10px;border-width:0px;border-color:rg
 
   <!-- About block BEGIN -->
   <div class="about-block content content-center" id="sobre">
-    <div clas="container">
+    <div class="container">
       <h4 style="margin-right: 100px; margin-left: 100px; font-size: 23px;">A Guilda Dos Compositores é uma comunidade de estudiosos da música, cujo fim é a produção e divulgação de composições originais em diversas vertentes. Entre as nossas muitas realizações, está a de criar obras musicais atendendo aos objetivos dos nossos contratantes. Homenagens pessoais ou produções interessadas, música sinfônica e trilhas orquestradas em caráter de cinema, canções e poemas musicados, valsas, tangos, sonatas, choros, aberturas sinfônicas, baladas, concertos... Música original sob a sua requisição, em qualquer gênero, caráter ou estilo. Conheça-nos:</h4>
       <div class="col-md-12 col-sm-12 col-xs-12">
         <div class="col-md-2 col-sm-4 col-xs-12 item"></div>
@@ -215,38 +215,33 @@ text-align:center;text-shadow:#000 0px 5px 10px;border-width:0px;border-color:rg
       
       </div>
       <div class="col-md-12 col-sm-12 col-xs-12">
-        <div class="col-md-4 col-sm-4 col-xs-12 item" style="margin-top: -150px; cursor: pointer;" onclick="location.href='#pessoal'">
+        <div class="col-md-4 col-sm-4 col-xs-12 item" id="div_over" style="padding-top: 5px; margin-top: -150px; cursor: pointer;" onclick="$('html, body').animate({scrollTop: $('#pessoal').offset().top}, 1500);">
             <p><img src="assets/guilda/pessoal.jpg" style="width: 250px; height: 250px;" /></p>
             <h2 class="header-navigation" style="padding: 0;"><a href="#pessoal" style="color: #8B314B;">Pessoal</a>
             
-            <h4 style="font-size: 15px;">Composições originais para imortalizar ocasiões, presentear / homenagear entes queridos ou apenas deixar o seu registro na história da Grande Música. Casamentos, bodas, aniversários, 15 anos e homenagens em geral.</h4>
+            <h4 style="font-size: 15px; margin-bottom: 10px;">Composições originais para imortalizar ocasiões, presentear / homenagear entes queridos ou apenas deixar o seu registro na história da Grande Música. Casamentos, bodas, aniversários, 15 anos e homenagens em geral.</h4>
         </div>
 
 
-        <div class="col-md-4 col-sm-4 col-xs-12 item" style="margin-top: -150px; cursor: pointer;" onclick="location.href='#producoes'">
+        <div class="col-md-4 col-sm-4 col-xs-12 item" id="div_over" style="padding-top: 5px; margin-top: -150px; cursor: pointer;" onclick="$('html, body').animate({scrollTop: $('#producoes').offset().top}, 1500);">
             <p><img src="assets/guilda/producoes.jpg" style="width: 250px; height: 250px;" /></p>
             <h2 class="header-navigation" style="padding: 0;"><a href="#producoes" style="color: #8B314B;">Produções</a></h2>
             
-            <h4 style="font-size: 15px;">Trilhas originais para projetos de cinema, TV, games, eventos, festivais e outros. Jingles, aberturas e vinhetas em qualquer caráter (solene, vitorioso, cômico, suspense, lúdico, romântico...). Grandes e pequenas produções, sem distinção.</h4>
+            <h4 style="font-size: 15px; margin-bottom: 10px;">Trilhas originais para projetos de cinema, TV, games, eventos, festivais e outros. Jingles, aberturas e vinhetas em qualquer caráter (solene, vitorioso, cômico, suspense, lúdico, romântico...). Grandes e pequenas produções, sem distinção.</h4>
         </div>
 
-        <div class="col-md-4 col-sm-4 col-xs-12 item" style="margin-top: -150px; cursor: pointer;" onclick="location.href='#corpo'">
+        <div class="col-md-4 col-sm-4 col-xs-12 item" id="div_over" style="padding-top: 5px; margin-top: -150px; cursor: pointer;" onclick="$('html, body').animate({scrollTop: $('#corpo').offset().top}, 1500);">
             <p><img src="assets/guilda/corpo.jpg" style="width: 250px; height: 250px;" /></p>
             <h2 class="header-navigation" style="padding: 0;"><a href="#corpo" style="color: #8B314B;">Corpo Artístico</a></h2>
             
-            <h4 style="font-size: 15px;">Composições originais e arranjos para orquestras, grupos de câmara, companhias de ballet clássico, teatro e projetos artísticos em geral, sem limitações temáticas, de período histórico, técnicas ou de finalidade.</h4>
+            <h4 style="font-size: 15px; margin-bottom: 10px;">Composições originais e arranjos para orquestras, grupos de câmara, companhias de ballet clássico, teatro e projetos artísticos em geral, sem limitações temáticas, de período histórico, técnicas ou de finalidade.</h4>
         </div>
       </div>
 
-
-      <p><strong>PROJETOS ACADÊMICOS:</strong> Peças originais para recitais de formatura, dissertações e teses, além de trabalhos de pesquisa e revisão, da Graduação ao Doutorado. <a href="#contato">Contate-nos.</a></p>
-      
-      <div class="ab-trio" style="padding-top: 5px;">
-        <!--<img src="assets/guilda/orchestra021.jpg" alt="" class="img-responsive">-->
-        
-      </div>
     </div>
+      <p style="margin-top: 10px;"><strong>PROJETOS ACADÊMICOS:</strong> Peças originais para recitais de formatura, dissertações e teses, além de trabalhos de pesquisa e revisão, da Graduação ao Doutorado. <a href="#contato">Contate-nos.</a></p>
   </div>
+
   <!-- About block END -->
 
   <!-- Services block BEGIN 
@@ -413,10 +408,8 @@ text-align:center;text-shadow:#000 0px 5px 10px;border-width:0px;border-color:rg
           </div>
         </div>
         </div>
-        
 
-    </div>
-    <div class="row" style="margin-bottom: -60px;">
+    
         <div class="col-md-4 item">
           <img src="assets/guilda/bruno.jpg" alt="Bruno Marques" style='width: 265px; max-width: 265px;' class="img-responsive">
           <h3>Bruno Marques</h3>
@@ -469,8 +462,7 @@ text-align:center;text-shadow:#000 0px 5px 10px;border-width:0px;border-color:rg
             
           </div>
         </div>
-        
-      </div>
+    </div>
   </div>
   
   <!-- Team block END -->
@@ -489,6 +481,7 @@ text-align:center;text-shadow:#000 0px 5px 10px;border-width:0px;border-color:rg
           <h4 style="margin-bottom: 20px;">Composições originais e arranjos para orquestras sinfônicas, grupos de câmara, bandas sinfônicas, big-bands, companhias de ballet clássico*, companhias de teatro e projetos artísticos em geral, sem limitações temáticas, de período histórico, técnicas ou de finalidade.</h4>
           
           <p style="text-align: left;">* Contate-nos sobre outras possíveis modalidades de dança.</p>
+          <br />
 
           <iframe width="100%" height="20" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/172434462&amp;color=8b314b&amp;inverse=false&amp;auto_play=false&amp;show_user=true"></iframe>
           <br /><br />
@@ -549,11 +542,13 @@ text-align:center;text-shadow:#000 0px 5px 10px;border-width:0px;border-color:rg
             </h5>
 
             <iframe width="100%" height="20" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/172388947&amp;color=8b314b&amp;inverse=false&amp;auto_play=false&amp;show_user=true"></iframe>
-            <strong style="color:#8B314B;">Faixas:</strong> Epic Ouverture (0'00''), March of the Legion - Parte I (0'32'')<br /><br />
+            <span><strong style="color:#8B314B;">Faixas:</strong> Epic Ouverture (0'00''), March of the Legion - Parte I (0'32'')</span>
+            <br /><br />
             
             <iframe width="100%" height="20" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/172389169&amp;color=8b314b&amp;inverse=false&amp;auto_play=false&amp;show_user=true"></iframe>
       
-            <strong style="color:#8B314B;">Faixas:</strong> Descent Into the Deep (0'00), March of the Legion - Parte II (0'42''), The Chase (1'23''), Infinity March (2'08''), Brash Squad at the Space Academy (3'24'')<br /><br />
+            <span><strong style="color:#8B314B;">Faixas:</strong> Descent Into the Deep (0'00), March of the Legion - Parte II (0'42''), The Chase (1'23''), Infinity March (2'08''), Brash Squad at the Space Academy (3'24'')</span>
+            <br /><br />
 
             <iframe width="100%" height="20" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/172389279&amp;color=8b314b&amp;inverse=false&amp;auto_play=false&amp;show_user=true"></iframe>
           
@@ -635,7 +630,7 @@ text-align:center;text-shadow:#000 0px 5px 10px;border-width:0px;border-color:rg
         <h4>
           Homenagens, casamentos, aniversários, nascimentos, bodas, batizados ou qualquer propósito pessoal, os compositores da Guilda se colocam à disposição dos nossos contratantes, com uma grande liberdade de participação destes no processo de criação. O resultado é uma colaboração entre nós e você, nascendo assim obras musicais inéditas e exclusivas. </h4>
           <h4>
-          Claro, é maravilhoso celebrar uma união ao som do <a href="http://youtu.be/4obAjW07-tg?t=5m50s" target="_blank" style="color: #3A3A6F;">Noturno de Chopin</a>, mas como seria tal celebração ao som de um Noturno composto -e intitulado- exclusivamente para a mesma? O <a href="http://youtu.be/444vjWsl4xk?t=1m30s" target="_blank"  style="color: #3A3A6F;">Danúbio Azul</a> é uma das valsas mais conhecidas do mundo, belíssima composição de Johann Strauss II; mas por que não imortalizar os 15 anos da sua filha com uma valsa dedicada a ela? Temos "Chopins" e "Strauss(es?)" à nossa disposição? Infelizmente não. Mas contamos com compositores de altíssimo nível, todos catedráticos e de carreira internacional, gabaritados para criar obras ricas e nos mais variados estilos, atendendo à sua requisição!
+          Claro, é maravilhoso celebrar uma união ao som do <a href="http://youtu.be/4obAjW07-tg?t=5m50s" target="_blank" style="color: #000099;">Noturno de Chopin</a>, mas como seria tal celebração ao som de um Noturno composto -e intitulado- exclusivamente para a mesma? O <a href="http://youtu.be/444vjWsl4xk?t=1m30s" target="_blank"  style="color: #000099;">Danúbio Azul</a> é uma das valsas mais conhecidas do mundo, belíssima composição de Johann Strauss II; mas por que não imortalizar os 15 anos da sua filha com uma valsa dedicada a ela? Temos "Chopins" e "Strauss(es?)" à nossa disposição? Infelizmente não. Mas contamos com compositores de altíssimo nível, todos catedráticos e de carreira internacional, gabaritados para criar obras ricas e nos mais variados estilos, atendendo à sua requisição!
           </h4>
         </div>
         <!-- Pricing item END -->
