@@ -68,6 +68,7 @@ a:hover {
 }
 .facts-block .item {
   background: rgba(255, 99, 77, 0.92);
+  font-size: 17px;
 }
 .pi-price strong {
   background: #E85425;
