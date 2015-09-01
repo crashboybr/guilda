@@ -1,1 +1,180 @@
 /* here you can put your own css to customize and override the theme */
+@media (min-width: 1024px) {
+
+	.header-section{
+		top: 0px; background: #fff; bottom: auto; left: auto; right: auto; width: 100%; min-height: 60px; padding: 0; box-shadow: 0 1px 4px rgba(228, 228, 228, 0.95); z-index: 9999;
+	}
+
+	#promo-block {
+		margin-top: 70px; margin-bottom: 5px;
+	}
+
+	.site-logo {
+		padding-top: 5px;
+	}
+
+	.guilda-logo {
+		width: 550px;
+	}
+
+	.promo-like-text {
+		font-size:55px!important;
+		line-height:65px!important;
+		font-weight:700!important;
+		color:#fff!important;
+		text-decoration:none!important;
+		background-:transparent!important;
+		text-align:center!important;
+		text-shadow:#000 0px 5px 10px!important;
+		border-width:0px!important;
+		border-color:rgb(255, 255, 255)!important;
+		border-style:none!important;
+	}
+
+	.header-text {
+		margin-right: 100px!important;
+		margin-left: 100px!important;
+		font-size: 23px!important;
+	}
+
+	.header.secondary {
+		padding:0!important;
+	}
+
+	.about-block {
+		margin-left: 25px;
+  		margin-right: 25px;
+  	}
+
+	.itens .item a{
+		color: #8B314B; text-decoration: none;
+	}
+
+	.header-item {
+		font-size: 15px!important;
+		margin-bottom: 10px!important;
+	}
+
+	.sub-text {
+		margin-top: 10px;
+	}
+
+	.team-item {
+		margin-bottom: 0px;
+	}
+
+	.div_over {
+		padding-top: 5px; margin-top: -150px; cursor: pointer;
+	}
+
+	.img-responsive.actors {
+		width: 245px;
+	}
+
+	.bio-list {
+		text-align: justify; font-size: 13px; margin-left: -20px;
+	}
+
+	.actor-role {
+		margin-bottom: 10px;
+	}
+
+	.actor-title {
+		font-size: 12px; text-align: justify; text-indent: 30px;
+	}
+
+	.fs14px {
+		font-size: 14px!important;
+	}
+
+	.fs15px{
+		font-size: 15px;
+	}
+
+	.fs20px {
+		font-size: 20px;
+	}
+
+	.fs55px {
+		font-size: 55px;
+	}
+
+
+	.img-responsive.bruno-marques {
+		width: 265px; max-width: 265px;
+	}
+
+	.carousel.slide {
+		style="height: 280px;"
+	}
+
+	.img30 {
+		width: 30px;
+	}
+
+	.facts-block .item {
+		background: #8B314B;
+	}
+
+	.t-left {
+		text-align: left;
+	}
+
+	.yt-max {
+		width: 740px!important;
+		height: 459px!important;
+	}
+
+	.yt-min {
+		width: 95%!important;
+		height: 310px!important;
+	}
+
+	.fs13px {
+		font-size: 13px;
+	}
+	.padding-26{
+		padding-bottom: 26%;
+	}
+
+	.bg-orchestra {
+		background: #292F34 url(../../../../assets/guilda/orchestra021.jpg) no-repeat fixed!important;
+	}
+
+	.bold-color {
+		color:#8B314B;
+	}
+
+	.separator-st {
+		margin-top: 10px; margin-bottom: 10px;
+	}
+	.title-produto {
+		color: #8B314B; font: 400 30px 'PT Sans Narrow', Arial, sans-serif; text-align: left;
+	}
+	.p-produto {
+		margin-top: 30px; margin-bottom: 20px;
+	}
+	.title-vozes {
+		margin-top: 10px; color: #8B314B; font: 400 30px 'PT Sans Narrow', Arial, sans-serif; text-align: left;
+	}
+	.img-voices {
+		width: 110px;
+	}
+	.voice-name {
+		text-align: left!important;
+	}
+
+}
+
+@media (max-width: 1024px) {
+	.guilda-logo {
+		margin-top: 60px;
+	}
+	.message-block {
+	  	background-size: 300%;
+	  	background-position: center;
+	}
+	.facts-block {
+		background-position: center;
+	}
+}

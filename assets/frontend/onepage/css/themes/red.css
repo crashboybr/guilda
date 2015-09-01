@@ -38,10 +38,10 @@ a:hover {
     color: #FF7302;
 }
 .services-block .fa {
-  background: #e85425;
+  background: #8B314B;
 }
 .services-block .fa:after {
-  border-top: 9px solid #e85425;
+  border-top: 9px solid #8B314B;
 }
 .team-block em {
   color: #8B314B;
@@ -67,33 +67,33 @@ a:hover {
   background: #cc3304;
 }
 .facts-block .item {
-  background: rgba(255, 99, 77, 0.92);
+  background: #8B314B;
   font-size: 17px;
 }
 .pi-price strong {
-  background: #E85425;
+  background: #8B314B;
 }
 .pi-price strong:after {
-  border-top: 9px solid #E85425;
+  border-top: 9px solid #8B314B;
 }
 .pricing-content .list-unstyled li i {
-  color: #E85425;
+  color: #8B314B;
 }
 .pricing-footer .btn-default:hover,
 .pricing-footer .btn-default:active {
-  background: #E85425;
+  background: #8B314B;
 }
 .portfolio-block .item b:hover {
-  color: #E85425;
+  color: #8B314B;
 }
 @media (max-width: 1024px) {
 	.header-mobi-ext .header-navigation a:hover,
 	.header-mobi-ext .header-navigation li.current a{
-	  background-color: #E85425;
+	  background-color: #8B314B;
 	  color: #fff !important;
 	}
 }
 .header .mobi-toggler:hover {
-  background-color: #E85425;
-  border-color: #E85425;
+  background-color: #8B314B;
+  border-color: #8B314B;
 }
